@@ -11,8 +11,11 @@ Access Token is generated to sync the products and to make sure the user is auth
 **Method** : POST
 
 ### Request :
-```
+
 _Example_
+
+```
+
 
   {
     "client_id"         :  1,
@@ -26,8 +29,10 @@ _Example_
 
 ### Response :
 
-```
+
 _Example_
+
+```
 
 {
     "token_type"        : "Bearer",
@@ -48,8 +53,10 @@ After generating Access Token , Sync the products to your website by hitting the
 **Method** : GET
 
 ### Response :
-```
+
 _Example_
+
+```
 
 {
     "categories": [
@@ -184,8 +191,10 @@ You can create an Order by requesting order id .
 **Method** : POST
 
 ### Request :
-```
+
 _Example_
+
+```
 
 {
     “client_id”         :  1,
@@ -200,10 +209,18 @@ _Example_
 
 ### Response : 
 
-```
 _Example_
+
+```
 
 {
     
 
 }
+```
+
+
+I appreciate your feedback. If you find any issues you can contact on  +91-9718121389 .
+
+## Thankyou
+
