@@ -6,7 +6,7 @@ To import the dropship products in your website , you need to generate access to
 
 Access Token is generated to sync the products and to make sure the user is authorized.
 
- [ API ] (http://www.dropship.biglytech.net/api/oauth/token)
+**API** `http://www.dropship.biglytech.net/api/oauth/token`
 
 **Method** : POST
 
