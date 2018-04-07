@@ -12,6 +12,8 @@ Access Token is generated to sync the products and to make sure the user is auth
 
 ### Request :
 ```
+_Example_
+
   {
     "client_id"         :  1,
     "username"          :  "YourRegisterdEmailId",
@@ -25,6 +27,8 @@ Access Token is generated to sync the products and to make sure the user is auth
 ### Response :
 
 ```
+_Example_
+
 {
     "token_type"        : "Bearer",
     "expires_in"        : 31535999,
@@ -39,13 +43,14 @@ Access Token is generated to sync the products and to make sure the user is auth
 
 After generating Access Token , Sync the products to your website by hitting the API .
 
-  [API]
-  (http://www.dropship.biglytech.net/api/sync)
+**API** `http://www.dropship.biglytech.net/api/sync`
 
 **Method** : GET
 
 ### Response :
 ```
+_Example_
+
 {
     "categories": [
         {
@@ -172,21 +177,22 @@ After generating Access Token , Sync the products to your website by hitting the
 
 ## Orders
 
-To create an Order 
+You can create an Order by requesting order id . 
 
-[API] (http://www.dropship.biglytech.net/api/orders)
+**API** `http://www.dropship.biglytech.net/api/orders`
 
 **Method** : POST
 
 ### Request :
 ```
+_Example_
 
 {
     “client_id”         :  1,
     “username”          :  “YourRegisterdEmailId”,
     “client_secret”     :  “R0nc1QWmgM5sTrNoweovpOVWrA5Uf5LYp6sBCX80”,
     “password”          : “your dropship password”,
-    “id”            :  order id
+    “id”                :  order id
 
 }
 ```
@@ -195,6 +201,7 @@ To create an Order
 ### Response : 
 
 ```
+_Example_
 
 {
     
