@@ -197,12 +197,26 @@ _Example_
 ```
 
 {
-    “client_id”         :  1,
-    “username”          :  “YourRegisterdEmailId”,
-    “client_secret”     :  “R0nc1QWmgM5sTrNoweovpOVWrA5Uf5LYp6sBCX80”,
-    “password”          : “your dropship password”,
-    “id”                :  order id
-
+    "body" : {
+        [
+            "name": "Order_Key",
+            "customer_id" : Billing_Id,
+            "amount" : Total_Amount,
+            "customer_note" : "Customer_Note",
+            "shipping" : Shipping_Price,
+            "billing" : Billing_Price,
+            "products" : {
+                [
+                    "id" : Product_id,
+                    "name" : "Product_Name",
+                    "amount" : Amount,
+                    "quantity" : Quantity,
+                ],
+            },
+            "payment_method" : "cod/prepaid",
+            "status" : "Placed/Completed/Dispatched/Shipped/Delivered"
+        ]
+    }
 }
 ```
 
@@ -214,8 +228,7 @@ _Example_
 ```
 
 {
-    
-
+  "order_id" : Order_Id 
 }
 ```
 
