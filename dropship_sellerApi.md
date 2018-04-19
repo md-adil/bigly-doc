@@ -196,28 +196,44 @@ _Example_
 
 ```
 
+
 {
-    "body" : {
-        [
-            "name": "Order_Key",
-            "customer_id" : Billing_Id,
-            "amount" : Total_Amount,
-            "customer_note" : "Customer_Note",
-            "shipping" : Shipping_Price,
-            "billing" : Billing_Price,
-            "products" : {
-                [
-                    "id" : Product_id,
-                    "name" : "Product_Name",
-                    "amount" : Amount,
-                    "quantity" : Quantity,
+      "first_name" : "first_name",
+      "last_name" : "last_name",
+      "email" : "emailId@email.com",
+      "mobile" : "1234567890",
+      "address_line_1" : "address",
+      "address_line_2" : "address",
+      "city" : "city",
+      "state" : "state",
+      "pincode" : "pincode",
+      "country" : "country",
+      "payment_method" : "cod/prepaid",
+      "sameadd" : "Sameadd",
+      "shipping_first_name" : "shipping_first_name",
+      "shipping_last_name" : "shipping_last_name",
+      "shipping_address1" : "shipping_address",
+      "shipping_address2" : "shipping_address",
+      "shipping_city" : "shipping_city",
+      "shipping_pincode" : "shipping_pincode",
+      "shipping_country" : "shipping_country",
+      "shipping_state" : "shipping_state",
+      "sku" : "sku",
+      "quantity" : "quantity",
+      "shipping_charge" : "shipping_charge",
+      "products" : [
+        {
+                    "id" : product id,
+                    "name" : "Product",
+                    "amount" : amount,
+                    "quantity" : quantity
+        }
+        
                 ],
-            },
-            "payment_method" : "cod/prepaid",
-            "status" : "Placed/Completed/Dispatched/Shipped/Delivered"
-        ]
-    }
+      "name": "Product Name",
+      "amount" : totalamount
 }
+
 ```
 
 
@@ -228,7 +244,16 @@ _Example_
 ```
 
 {
-  "order_id" : Order_Id 
+    "user_id": user_id,
+    "client_id": client_id,
+    "name": "Product Name",
+    "price": price,
+    "amount": "amount",
+    "status": "placed",
+    "payment_method": "cod",
+    "updated_at": "2018-04-19 11:57:36",
+    "created_at": "2018-04-19 11:57:36",
+    "id": order_id
 }
 ```
 
